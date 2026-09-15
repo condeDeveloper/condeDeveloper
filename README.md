@@ -37,6 +37,7 @@ Todos jogáveis no navegador, com versão para celular e recordes salvos localme
 | 🐦 | [Flappy Bird](https://condedeveloper.github.io/flappy-bird/) | medalhas e ciclo dia/noite |
 | 🧠 | [Jogo da Memória](https://condedeveloper.github.io/jogo-da-memoria/) | cartas 3D e 3 temas |
 | ❌ | [Jogo da Velha](https://condedeveloper.github.io/jogo-da-velha/) | minimax imbatível, 3 dificuldades, 2 jogadores |
+| 🟩 | [Termo](https://condedeveloper.github.io/termo/) | palavra do dia, estatísticas, compartilhar |
 
 <div align="center">
 
