@@ -1,0 +1,40 @@
+name: Contribution snake
+
+on:
+  schedule:
+    # todo dia às 03:00 UTC (00:00 em Brasília)
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/snake.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snake
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Gerar animações
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          # paleta: preto, grafite, vinho e bordô
+          outputs: |
+            dist/github-snake.svg?color_snake=#781B32&color_dots=#EBEDF0,#F1CBD3,#D9909F,#B85269,#781B32
+            dist/github-snake-dark.svg?color_snake=#F0F6FC&color_dots=#161B22,#321018,#541525,#781B32,#A52A45
+
+      - name: Publicar na branch output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "Atualiza animação de contribuições"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
