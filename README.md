@@ -42,6 +42,7 @@ Todos jogáveis no navegador, com versão para celular e recordes salvos localme
 | 🎵 | [Genius](https://condedeveloper.github.io/genius/) | tons afinados, modo rígido, 20 rodadas |
 | 🧩 | [Sudoku](https://condedeveloper.github.io/sudoku/) | gerador único, anotações, dicas, 4 níveis |
 | ☄️ | [Asteroids](https://condedeveloper.github.io/asteroids/) | vetores, inércia, hiperespaço |
+| 🦖 | [Dino Runner](https://condedeveloper.github.io/dino-runner/) | corredor infinito, pássaros, dia/noite |
 
 <div align="center">
 
