@@ -39,6 +39,7 @@ Todos jogáveis no navegador, com versão para celular e recordes salvos localme
 | ❌ | [Jogo da Velha](https://condedeveloper.github.io/jogo-da-velha/) | minimax imbatível, 3 dificuldades, 2 jogadores |
 | 🟩 | [Termo](https://condedeveloper.github.io/termo/) | palavra do dia, estatísticas, compartilhar |
 | 👾 | [Space Invaders](https://condedeveloper.github.io/space-invaders/) | pixel art, barreiras destrutíveis, nave misteriosa |
+| 🎵 | [Genius](https://condedeveloper.github.io/genius/) | tons afinados, modo rígido, 20 rodadas |
 
 <div align="center">
 
