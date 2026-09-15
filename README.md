@@ -10,6 +10,8 @@
 
 </div>
 
+<br>
+
 ## Sobre
 
 Gosto de recriar coisas do zero para entender como funcionam. Boa parte do que publico aqui é JavaScript puro, sem framework e sem build: abre o `index.html` e roda.
@@ -17,6 +19,8 @@ Gosto de recriar coisas do zero para entender como funcionam. Boa parte do que p
 - Conteúdo para quem está começando a programar
 - Jogos clássicos em HTML5 Canvas, um repositório por jogo
 - Projetos pequenos, publicados com frequência
+
+<br>
 
 ## Jogos em JavaScript puro
 
@@ -38,6 +42,24 @@ Todos jogáveis no navegador, com versão para celular e recordes salvos localme
 **[→ ver todos em condedeveloper.github.io/jogos](https://condedeveloper.github.io/jogos/)**
 
 </div>
+
+<br>
+
+## Contribuições
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/condeDeveloper/condeDeveloper/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/condeDeveloper/condeDeveloper/output/github-snake.svg">
+  <img alt="Gráfico de contribuições" src="https://raw.githubusercontent.com/condeDeveloper/condeDeveloper/output/github-snake-dark.svg" width="100%">
+</picture>
+
+</div>
+
+<br>
+
+<div align="center">
 
 <sub>Feito com JavaScript, café e teimosia.</sub>
 
