@@ -43,6 +43,7 @@ Todos jogáveis no navegador, com versão para celular e recordes salvos localme
 | 🧩 | [Sudoku](https://condedeveloper.github.io/sudoku/) | gerador único, anotações, dicas, 4 níveis |
 | ☄️ | [Asteroids](https://condedeveloper.github.io/asteroids/) | vetores, inércia, hiperespaço |
 | 🦖 | [Dino Runner](https://condedeveloper.github.io/dino-runner/) | corredor infinito, pássaros, dia/noite |
+| 🐹 | [Acerte a Toupeira](https://condedeveloper.github.io/acerte-a-toupeira/) | combo, dourada, bombas, 30 segundos |
 
 <div align="center">
 
