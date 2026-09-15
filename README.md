@@ -41,6 +41,7 @@ Todos jogáveis no navegador, com versão para celular e recordes salvos localme
 | 👾 | [Space Invaders](https://condedeveloper.github.io/space-invaders/) | pixel art, barreiras destrutíveis, nave misteriosa |
 | 🎵 | [Genius](https://condedeveloper.github.io/genius/) | tons afinados, modo rígido, 20 rodadas |
 | 🧩 | [Sudoku](https://condedeveloper.github.io/sudoku/) | gerador único, anotações, dicas, 4 níveis |
+| ☄️ | [Asteroids](https://condedeveloper.github.io/asteroids/) | vetores, inércia, hiperespaço |
 
 <div align="center">
 
