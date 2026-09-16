@@ -5,8 +5,11 @@
 **Desenvolvedor · criador de conteúdo dev · fundador do CondeClub**
 
 <a href="https://condecount.pages.dev/"><img src="https://img.shields.io/badge/CondeClub-781B32?style=for-the-badge&logoColor=F0F6FC" alt="CondeClub"></a>
-<a href="https://condedeveloper.github.io/jogos/"><img src="https://img.shields.io/badge/Jogos-321018?style=for-the-badge&logoColor=F0F6FC" alt="Jogos"></a>
-<a href="https://github.com/condeDeveloper?tab=repositories"><img src="https://img.shields.io/badge/Reposit%C3%B3rios-161B22?style=for-the-badge&logoColor=F0F6FC" alt="Repositórios"></a>
+
+<img src="https://img.shields.io/badge/JavaScript-A52A45?style=for-the-badge&logo=javascript&logoColor=F0F6FC" alt="JavaScript">
+<img src="https://img.shields.io/badge/HTML-781B32?style=for-the-badge&logo=html5&logoColor=F0F6FC" alt="HTML">
+<img src="https://img.shields.io/badge/CSS-541525?style=for-the-badge&logo=css&logoColor=F0F6FC" alt="CSS">
+<img src="https://img.shields.io/badge/Java-321018?style=for-the-badge&logo=openjdk&logoColor=F0F6FC" alt="Java">
 
 </div>
 
