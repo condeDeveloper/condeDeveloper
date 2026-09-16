@@ -63,6 +63,7 @@ Todos jogáveis no navegador, com versão para celular e recordes salvos localme
 | 🏦 | [Tesouraria](https://github.com/condeDeveloper/tesouraria) | Java 21 · Spring Boot 3 · JPA · Flyway · JWT | ledger de partidas dobradas, câmbio pronto, NDF com fixing PTAX, opções com Garman-Kohlhagen e gregas, VaR, limites, 80+ testes |
 | 📈 | [Livro de Ofertas](https://github.com/condeDeveloper/livro-de-ofertas) | C# 12 · .NET 8 · ASP.NET Core · SignalR · xUnit · BenchmarkDotNet | matching engine com prioridade preço-tempo, GTC/IOC/FOK, alteração com perda de prioridade, auto-negociação, candles, event sourcing com reconstrução, simulador |
 | 💸 | [Simulador Pix](https://github.com/condeDeveloper/simulador-pix) | C# 12 · .NET 8 · ASP.NET Core · EF Core · SQLite · xUnit | API no formato da API Pix do BCB: BR Code EMV com CRC16 idêntico ao exemplo oficial, chaves validadas, cobranças com QR dinâmico e expiração, endToEndId, devoluções, webhooks HMAC com backoff |
+| 🛡️ | [Antifraude](https://github.com/condeDeveloper/antifraude) | C# 12 · .NET 8 · ASP.NET Core · xUnit | motor de regras com linguagem própria (lexer, parser e avaliador), funções de velocidade em janelas deslizantes, pontuação com Aprovar/Revisar/Negar, listas de negação e aprovação, explicação e simulação em lote |
 
 <br>
 
