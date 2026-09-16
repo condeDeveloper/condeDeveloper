@@ -16,11 +16,12 @@
 
 ## Sobre
 
-Gosto de recriar coisas do zero para entender como funcionam. Boa parte do que publico aqui é JavaScript puro, sem framework e sem build: abre o `index.html` e roda.
+Gosto de recriar coisas do zero para entender como funcionam. Meu foco hoje é **C# e .NET**: back-end, motores de negociação e integrações financeiras, sempre com testes cobrindo as regras de negócio. Também mantenho um sistema de tesouraria em **Java** com Spring Boot e uma coleção de jogos em **JavaScript puro**, sem framework e sem build.
 
-- Conteúdo para quem está começando a programar
+- Back-end em C# e .NET 8: APIs, workers, event sourcing, SignalR, EF Core e benchmarks
+- Java 21 com Spring Boot: ledger de partidas dobradas, câmbio e derivativos
 - Jogos clássicos em HTML5 Canvas, um repositório por jogo
-- Projetos pequenos, publicados com frequência
+- Projetos pequenos e frequentes, cada um com CI e testes, e conteúdo para quem está começando
 
 <br>
 
@@ -80,6 +81,6 @@ Todos jogáveis no navegador, com versão para celular e recordes salvos localme
 
 <div align="center">
 
-<sub>Feito com JavaScript, café e teimosia.</sub>
+<sub>Feito com C#, café e teimosia.</sub>
 
 </div>
