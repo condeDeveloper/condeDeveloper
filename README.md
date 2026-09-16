@@ -6,10 +6,11 @@
 
 <a href="https://condecount.pages.dev/"><img src="https://img.shields.io/badge/CondeClub-781B32?style=for-the-badge&logoColor=F0F6FC" alt="CondeClub"></a>
 
-<a href="https://condedeveloper.github.io/csharp/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.csharp&label=C%23&labelColor=781B32&color=781B32&style=for-the-badge&logo=dotnet&logoColor=F0F6FC" alt="C#"></a>
-<a href="https://condedeveloper.github.io/java/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.java&label=Java&labelColor=541525&color=541525&style=for-the-badge&logo=openjdk&logoColor=F0F6FC" alt="Java"></a>
-<a href="https://condedeveloper.github.io/python/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.python&label=Python&labelColor=3B0F1C&color=3B0F1C&style=for-the-badge&logo=python&logoColor=F0F6FC" alt="Python"></a>
-<a href="https://condedeveloper.github.io/javascript/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.javascript&label=JavaScript%20%C2%B7%20HTML%20%C2%B7%20CSS&labelColor=A52A45&color=A52A45&style=for-the-badge&logo=javascript&logoColor=F0F6FC" alt="JavaScript · HTML · CSS"></a>
+<!-- Caixas por linguagem: sempre em degradê do mais claro ao mais escuro, na ordem em que aparecem (A52A45 → 781B32 → 541525 → 3B0F1C). Ao reordenar ou incluir uma linguagem, redistribuir as cores. -->
+<a href="https://condedeveloper.github.io/csharp/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.csharp&label=C%23&labelColor=A52A45&color=A52A45&style=for-the-badge&logo=dotnet&logoColor=F0F6FC" alt="C#"></a>
+<a href="https://condedeveloper.github.io/java/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.java&label=Java&labelColor=781B32&color=781B32&style=for-the-badge&logo=openjdk&logoColor=F0F6FC" alt="Java"></a>
+<a href="https://condedeveloper.github.io/python/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.python&label=Python&labelColor=541525&color=541525&style=for-the-badge&logo=python&logoColor=F0F6FC" alt="Python"></a>
+<a href="https://condedeveloper.github.io/javascript/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.javascript&label=JavaScript%20%C2%B7%20HTML%20%C2%B7%20CSS&labelColor=3B0F1C&color=3B0F1C&style=for-the-badge&logo=javascript&logoColor=F0F6FC" alt="JavaScript · HTML · CSS"></a>
 
 </div>
 
