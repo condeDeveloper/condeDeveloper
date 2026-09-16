@@ -68,6 +68,14 @@ Todos jogáveis no navegador, com versão para celular e recordes salvos localme
 
 <br>
 
+## Python
+
+| | Projeto | Destaques |
+|---|---------|-----------|
+| 🤪 | [Bobo, o chatbot idiota](https://github.com/condeDeveloper/chatbot-bobo) | chatbot de terminal em Python puro: habilidades por prioridade, memória de conversa, contas seguras com `ast`, hora e data, piadas e reflexões estilo ELIZA em português, 52 testes, zero dependências |
+
+<br>
+
 ## Contribuições
 
 <div align="center">
