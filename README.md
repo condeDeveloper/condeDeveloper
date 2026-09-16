@@ -67,6 +67,7 @@ Todos jogáveis no navegador, com versão para celular e recordes salvos localme
 | 🛡️ | [Antifraude](https://github.com/condeDeveloper/antifraude) | C# 12 · .NET 8 · ASP.NET Core · xUnit | motor de regras com linguagem própria (lexer, parser e avaliador), funções de velocidade em janelas deslizantes, pontuação com Aprovar/Revisar/Negar, listas de negação e aprovação, explicação e simulação em lote |
 | 🧾 | [Boleto Bancário](https://github.com/condeDeveloper/boleto-bancario) | C# 12 · .NET 8 · ASP.NET Core · xUnit | código de barras e linha digitável FEBRABAN, módulo 10 e 11 com vetores do manual, fator de vencimento com a virada de 2025, campo livre de BB, Bradesco, Itaú, Santander e Caixa, SVG Interleaved 2 of 5 |
 | 📊 | [Motor de Crédito](https://github.com/condeDeveloper/motor-de-credito) | C# 12 · .NET 8 · ASP.NET Core · xUnit | scorecard declarativo com oito características, faixas de risco A a E com precificação, política com cortes duros e contraproposta pela capacidade de pagamento, planos Price e SAC fechando o saldo ao centavo, IOF e CET por taxa interna de retorno |
+| 🗄️ | [Cofre KV](https://github.com/condeDeveloper/cofre-kv) | C# 12 · .NET 8 · System.IO.Pipelines · xUnit | banco chave-valor compatível com o protocolo do Redis: RESP2 com parser incremental sem cópia, servidor TCP com laço único de execução e pipelining, TTL passivo e ativo, despejo LRU em O(1), listas e hashes, testes de concorrência real por TCP |
 
 <br>
 
