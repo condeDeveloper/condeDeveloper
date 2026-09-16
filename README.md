@@ -6,10 +6,10 @@
 
 <a href="https://condecount.pages.dev/"><img src="https://img.shields.io/badge/CondeClub-781B32?style=for-the-badge&logoColor=F0F6FC" alt="CondeClub"></a>
 
-<img src="https://img.shields.io/badge/JavaScript-A52A45?style=for-the-badge&logo=javascript&logoColor=F0F6FC" alt="JavaScript">
-<img src="https://img.shields.io/badge/HTML-781B32?style=for-the-badge&logo=html5&logoColor=F0F6FC" alt="HTML">
-<img src="https://img.shields.io/badge/CSS-541525?style=for-the-badge&logo=css&logoColor=F0F6FC" alt="CSS">
-<img src="https://img.shields.io/badge/Java-321018?style=for-the-badge&logo=openjdk&logoColor=F0F6FC" alt="Java">
+<a href="https://condedeveloper.github.io/javascript/"><img src="https://img.shields.io/badge/JavaScript-A52A45?style=for-the-badge&logo=javascript&logoColor=F0F6FC" alt="JavaScript"></a>
+<a href="https://condedeveloper.github.io/html/"><img src="https://img.shields.io/badge/HTML-781B32?style=for-the-badge&logo=html5&logoColor=F0F6FC" alt="HTML"></a>
+<a href="https://condedeveloper.github.io/css/"><img src="https://img.shields.io/badge/CSS-541525?style=for-the-badge&logo=css&logoColor=F0F6FC" alt="CSS"></a>
+<a href="https://condedeveloper.github.io/java/"><img src="https://img.shields.io/badge/Java-321018?style=for-the-badge&logo=openjdk&logoColor=F0F6FC" alt="Java"></a>
 
 </div>
 
