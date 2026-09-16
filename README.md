@@ -60,6 +60,7 @@ Todos jogáveis no navegador, com versão para celular e recordes salvos localme
 | | Projeto | Stack | Destaques |
 |---|---------|-------|-----------|
 | 🏦 | [Tesouraria](https://github.com/condeDeveloper/tesouraria) | Java 21 · Spring Boot 3 · JPA · Flyway · JWT | ledger de partidas dobradas, câmbio pronto, NDF com fixing PTAX, opções com Garman-Kohlhagen e gregas, VaR, limites, 80+ testes |
+| 📈 | [Livro de Ofertas](https://github.com/condeDeveloper/livro-de-ofertas) | C# 12 · .NET 8 · ASP.NET Core · SignalR · xUnit · BenchmarkDotNet | matching engine com prioridade preço-tempo, GTC/IOC/FOK, alteração com perda de prioridade, auto-negociação, candles, event sourcing com reconstrução, simulador |
 
 <br>
 
