@@ -66,6 +66,7 @@ Todos jogáveis no navegador, com versão para celular e recordes salvos localme
 | 💸 | [Simulador Pix](https://github.com/condeDeveloper/simulador-pix) | C# 12 · .NET 8 · ASP.NET Core · EF Core · SQLite · xUnit | API no formato da API Pix do BCB: BR Code EMV com CRC16 idêntico ao exemplo oficial, chaves validadas, cobranças com QR dinâmico e expiração, endToEndId, devoluções, webhooks HMAC com backoff |
 | 🛡️ | [Antifraude](https://github.com/condeDeveloper/antifraude) | C# 12 · .NET 8 · ASP.NET Core · xUnit | motor de regras com linguagem própria (lexer, parser e avaliador), funções de velocidade em janelas deslizantes, pontuação com Aprovar/Revisar/Negar, listas de negação e aprovação, explicação e simulação em lote |
 | 🧾 | [Boleto Bancário](https://github.com/condeDeveloper/boleto-bancario) | C# 12 · .NET 8 · ASP.NET Core · xUnit | código de barras e linha digitável FEBRABAN, módulo 10 e 11 com vetores do manual, fator de vencimento com a virada de 2025, campo livre de BB, Bradesco, Itaú, Santander e Caixa, SVG Interleaved 2 of 5 |
+| 📊 | [Motor de Crédito](https://github.com/condeDeveloper/motor-de-credito) | C# 12 · .NET 8 · ASP.NET Core · xUnit | scorecard declarativo com oito características, faixas de risco A a E com precificação, política com cortes duros e contraproposta pela capacidade de pagamento, planos Price e SAC fechando o saldo ao centavo, IOF e CET por taxa interna de retorno |
 
 <br>
 
