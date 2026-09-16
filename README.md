@@ -65,6 +65,7 @@ Todos jogáveis no navegador, com versão para celular e recordes salvos localme
 | 📈 | [Livro de Ofertas](https://github.com/condeDeveloper/livro-de-ofertas) | C# 12 · .NET 8 · ASP.NET Core · SignalR · xUnit · BenchmarkDotNet | matching engine com prioridade preço-tempo, GTC/IOC/FOK, alteração com perda de prioridade, auto-negociação, candles, event sourcing com reconstrução, simulador |
 | 💸 | [Simulador Pix](https://github.com/condeDeveloper/simulador-pix) | C# 12 · .NET 8 · ASP.NET Core · EF Core · SQLite · xUnit | API no formato da API Pix do BCB: BR Code EMV com CRC16 idêntico ao exemplo oficial, chaves validadas, cobranças com QR dinâmico e expiração, endToEndId, devoluções, webhooks HMAC com backoff |
 | 🛡️ | [Antifraude](https://github.com/condeDeveloper/antifraude) | C# 12 · .NET 8 · ASP.NET Core · xUnit | motor de regras com linguagem própria (lexer, parser e avaliador), funções de velocidade em janelas deslizantes, pontuação com Aprovar/Revisar/Negar, listas de negação e aprovação, explicação e simulação em lote |
+| 🧾 | [Boleto Bancário](https://github.com/condeDeveloper/boleto-bancario) | C# 12 · .NET 8 · ASP.NET Core · xUnit | código de barras e linha digitável FEBRABAN, módulo 10 e 11 com vetores do manual, fator de vencimento com a virada de 2025, campo livre de BB, Bradesco, Itaú, Santander e Caixa, SVG Interleaved 2 of 5 |
 
 <br>
 
