@@ -6,9 +6,9 @@
 
 <a href="https://condecount.pages.dev/"><img src="https://img.shields.io/badge/CondeClub-781B32?style=for-the-badge&logoColor=F0F6FC" alt="CondeClub"></a>
 
-<a href="https://condedeveloper.github.io/javascript/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.javascript&label=JavaScript%20%C2%B7%20HTML%20%C2%B7%20CSS&labelColor=A52A45&color=A52A45&style=for-the-badge&logo=javascript&logoColor=F0F6FC" alt="JavaScript · HTML · CSS"></a>
 <a href="https://condedeveloper.github.io/csharp/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.csharp&label=C%23&labelColor=781B32&color=781B32&style=for-the-badge&logo=dotnet&logoColor=F0F6FC" alt="C#"></a>
 <a href="https://condedeveloper.github.io/java/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.java&label=Java&labelColor=541525&color=541525&style=for-the-badge&logo=openjdk&logoColor=F0F6FC" alt="Java"></a>
+<a href="https://condedeveloper.github.io/javascript/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.javascript&label=JavaScript%20%C2%B7%20HTML%20%C2%B7%20CSS&labelColor=A52A45&color=A52A45&style=for-the-badge&logo=javascript&logoColor=F0F6FC" alt="JavaScript · HTML · CSS"></a>
 
 </div>
 
