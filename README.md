@@ -6,11 +6,12 @@
 
 <a href="https://condecount.pages.dev/"><img src="https://img.shields.io/badge/CondeClub-781B32?style=for-the-badge&logoColor=F0F6FC" alt="CondeClub"></a>
 
-<!-- Caixas por linguagem: sempre em degradê do mais claro ao mais escuro, na ordem em que aparecem (A52A45 → 781B32 → 541525 → 3B0F1C). Ao reordenar ou incluir uma linguagem, redistribuir as cores. -->
+<!-- Caixas por linguagem: sempre em degradê do mais claro ao mais escuro, na ordem em que aparecem (A52A45 → 781B32 → 541525 → 3B0F1C → 290A14). Ao reordenar ou incluir uma linguagem, redistribuir as cores. -->
 <a href="https://condedeveloper.github.io/csharp/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.csharp&label=C%23&labelColor=A52A45&color=A52A45&style=for-the-badge&logo=dotnet&logoColor=F0F6FC" alt="C#"></a>
 <a href="https://condedeveloper.github.io/java/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.java&label=Java&labelColor=781B32&color=781B32&style=for-the-badge&logo=openjdk&logoColor=F0F6FC" alt="Java"></a>
 <a href="https://condedeveloper.github.io/python/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.python&label=Python&labelColor=541525&color=541525&style=for-the-badge&logo=python&logoColor=F0F6FC" alt="Python"></a>
-<a href="https://condedeveloper.github.io/javascript/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.javascript&label=JavaScript%20%C2%B7%20HTML%20%C2%B7%20CSS&labelColor=3B0F1C&color=3B0F1C&style=for-the-badge&logo=javascript&logoColor=F0F6FC" alt="JavaScript · HTML · CSS"></a>
+<a href="https://condedeveloper.github.io/node/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.node&label=Node&labelColor=3B0F1C&color=3B0F1C&style=for-the-badge&logo=nodedotjs&logoColor=F0F6FC" alt="Node"></a>
+<a href="https://condedeveloper.github.io/javascript/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.javascript&label=JavaScript%20%C2%B7%20HTML%20%C2%B7%20CSS&labelColor=290A14&color=290A14&style=for-the-badge&logo=javascript&logoColor=F0F6FC" alt="JavaScript · HTML · CSS"></a>
 
 </div>
 
@@ -22,6 +23,7 @@ Gosto de recriar coisas do zero para entender como funcionam. Meu foco hoje é *
 
 - Back-end em C# e .NET 8: APIs, workers, event sourcing, SignalR, EF Core e benchmarks
 - Java 21 com Spring Boot: ledger de partidas dobradas, câmbio e derivativos
+- Node puro, sem dependência nenhuma: protocolo WebSocket, objetos do Git, empacotador e executor de testes escritos do zero
 - Jogos clássicos em HTML5 Canvas, um repositório por jogo
 - Projetos pequenos e frequentes, cada um com CI e testes, e conteúdo para quem está começando
 
@@ -92,6 +94,20 @@ Todos jogáveis no navegador, com versão para celular e recordes salvos localme
 | 🗃️ | [Mini ORM](https://github.com/condeDeveloper/mini-orm) | ORM em Python puro sobre `sqlite3`, zero dependências: campos como descritores que interceptam a escrita e fazem o controle de alterações (o `UPDATE` toca só a coluna que mudou), metaclasse que recolhe os campos e deduz a tabela, mapa de identidade que impede a mesma linha de virar dois objetos na memória, construtor de consulta preguiçoso e imutável com conversão pelo campo (`preco__menor=10` são dez reais, não dez centavos), dinheiro em centavos e migrações versionadas, cada uma na própria transação. 107 testes |
 | 🧮 | [Planilha](https://github.com/condeDeveloper/planilha) | motor de planilha em Python puro: lexer e parser de fórmulas do zero com a precedência do Excel (o sinal unário une mais forte que a potência, então `-2^2` é 4), referências `A1` com cifrão e intervalos, mais de cinquenta funções em cinco famílias, erro como valor de primeira classe que se propaga e é capturado por `SEERRO`, grafo de dependências com recálculo topológico incremental e referência circular detectada como o que sobra da ordenação topológica, com o caminho do ciclo à mostra. CLI, modo interativo, 294 testes, zero dependências |
 | 🤪 | [Bobo, o chatbot idiota](https://github.com/condeDeveloper/chatbot-bobo) | chatbot de terminal em Python puro: habilidades por prioridade, memória de conversa, contas seguras com `ast`, hora e data, piadas e reflexões estilo ELIZA em português, 52 testes, zero dependências |
+
+<br>
+
+## Node
+
+Tudo aqui é Node puro: nenhuma dependência, nenhuma etapa de build, e os testes rodam com o `node:test` embutido.
+
+| | Projeto | Destaques |
+|---|---------|-----------|
+| 🔌 | [WebSocket](https://github.com/condeDeveloper/websocket) | servidor WebSocket do zero sobre `node:net`, pela RFC 6455, com cliente junto: aperto de mão em cima do evento `upgrade`, quadros de 7, 16 e 64 bits, máscara XOR obrigatória num sentido e proibida no outro, remontagem do que o TCP partiu, ping passando no meio de uma mensagem grande e fechamento em duas vias. UTF-8 inválido fecha com 1007, como manda a especificação. Os testes de quadro usam os vetores da própria RFC. 71 testes |
+| 🌳 | [Mini Git](https://github.com/condeDeveloper/mini-git) | os objetos do Git do zero — blob, tree e commit, SHA-1, zlib, índice, referências e histórico — com hashes **idênticos aos do Git de verdade**: há testes que rodam `git hash-object` e `git write-tree` e exigem o mesmo valor, inclusive no caso que mais pega (a tree ordena diretório como se tivesse barra no fim, e sem isso `lib.js` e `lib/` saem trocados). Hash abreviado recusa prefixo ambíguo em vez de escolher. 116 testes |
+| 📦 | [Empacotador](https://github.com/condeDeveloper/empacotador) | empacotador de módulos ES do zero. Em vez de procurar `import` com expressão regular — que casa dentro de comentário, de texto e de gabarito —, monta uma *sombra* do código, do mesmo tamanho, com todo conteúdo inerte virado espaço, e recorta do original pelas posições que coincidem. Grafo de dependências com ordem topológica e ciclo mostrado por inteiro. Os testes empacotam, rodam o pacote e comparam a saída com a do Node rodando os módulos direto. 64 testes |
+| 🌐 | [Servidor HTTP](https://github.com/condeDeveloper/servidor-http) | mini framework sobre `node:http`, sem Express: roteador que ordena por especificidade (`/pedidos/novo` ganha de `/pedidos/:id`), 405 com `Allow` quando o caminho existe e o método não, limite de corpo aplicado **enquanto** os pedaços chegam, cookies assinados, estáticos com guarda contra travessia de caminho e trava para `proximo()` chamado duas vezes. Parâmetros sem protótipo, para `:__proto__` não virar poluição. 86 testes |
+| ✅ | [Executor de Testes](https://github.com/condeDeveloper/executor-de-testes) | executor de testes do zero: a declaração monta uma árvore sem executar nada, o que permite contar e filtrar antes de rodar. Comparação profunda com a semântica de `Object.is` (`NaN` igual a `NaN`) atravessando `Date`, `RegExp`, `Set`, `Map` e referência cíclica, pilha sem os quadros do próprio executor, e `depoisDeCada` rodando mesmo quando o teste falha — sem isso, uma falha deixa o estado sujo e os testes seguintes mentem. 75 testes |
 
 <br>
 
