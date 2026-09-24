@@ -21,11 +21,30 @@
 
 Gosto de recriar coisas do zero para entender como funcionam. Meu foco hoje é **C# e .NET**: back-end, motores de negociação e integrações financeiras, sempre com testes cobrindo as regras de negócio. Também mantenho um sistema de tesouraria em **Java** com Spring Boot e uma coleção de jogos em **JavaScript puro**, sem framework e sem build.
 
+- **CondePlay**: um serviço de streaming inteiro em seis repositórios e cinco linguagens — catálogo com CRUD, player HLS, tela, metadados de MP4, recomendação e telemetria
 - Back-end em C# e .NET 8: APIs, workers, event sourcing, SignalR, EF Core e benchmarks
 - Java 21: ledger de partidas dobradas com Spring Boot, e do zero — gerador de bytecode, árvore B+ em disco, cliente HTTP e motor de regex
 - Node puro, sem dependência nenhuma: WebSocket, objetos do Git, tar, JWT, DNS, JSON, empacotador e log append-only escritos do zero
 - Jogos clássicos em HTML5 Canvas, um repositório por jogo
 - Projetos pequenos e frequentes, cada um com CI e testes, e conteúdo para quem está começando
+
+<br>
+
+## CondePlay — um serviço de streaming em seis partes
+
+Catálogo com CRUD, player, tela, metadados, recomendação e telemetria. Cada
+parte é um repositório, e juntas são as cinco linguagens do perfil. O conteúdo
+é **inventado para o projeto** e as mídias apontam para fluxos HLS **públicos de
+teste**: não há um arquivo de vídeo nem uma imagem de terceiros em lugar nenhum.
+
+| | Parte | Stack | Destaques |
+|---|-------|-------|-----------|
+| 🎬 | [Catálogo](https://github.com/condeDeveloper/catalogo) | C# 12 · .NET 8 · EF Core · SQLite · xUnit | a API: filmes e séries com CRUD, temporadas e episódios, perfis, minha lista, avaliações, progresso e a inicial montada por perfil. Paginação por **cursor opaco** em vez de `OFFSET`, que repete e pula itens quando o catálogo muda entre duas páginas. Classificação indicativa guardada como idade mínima, o que a faz ordenar sozinha, e selo desconhecido é recusado em vez de virar Livre em silêncio. O bug que os testes acharam: o SQLite não ordena `DateTimeOffset`, e sem o conversor binário doze rotas devolviam 500. 54 testes |
+| 📺 | [Player HLS](https://github.com/condeDeveloper/player-hls) | JavaScript · Media Source Extensions · node:test | player HLS do zero, sem `hls.js`: playlist mestra e de mídia, fila de buffer, qualidade adaptativa e recuperação de erro. O estimador de banda descarta amostras de menos de 50 ms — um segmento de 500 KB servido pelo cache em 5 ms diz **92 Mbps** e não mediu rede nenhuma, e era isso que fazia a primeira versão saltar para a qualidade máxima num link ruim. Sobe com 30% de folga e desce na hora, porque subir errado custa uma parada e descer errado custa nitidez. 61 testes |
+| 🍿 | [CondePlay](https://condedeveloper.github.io/conde-play/) | JavaScript · HTML · CSS · node:test | a tela: perfis, herói, fileiras, ficha com temporadas, busca, minha lista e o reprodutor. Sem framework, sem build, sem dependência. **Nenhum arquivo de imagem no repositório**: cada capa é um SVG gerado do nome e de uma cor tirada do id pelo ângulo áureo — cor estável entre visitas e ids vizinhos bem separados no círculo. Fala com a API quando ela está no ar e cai para o catálogo embutido quando não está, e é isso que permite publicar no Pages e ainda navegar por tudo. 34 testes |
+| 🎞️ | [MP4](https://github.com/condeDeveloper/mp4) | Node puro · node:test | leitor de metadados de MP4 do zero: árvore de caixas, duração, resolução e cadeia de codec da RFC 6381. O teste que vale por todos: o `avc1.64001f` montado a partir de **três bytes** do arquivo é, caractere por caractere, o que a Mux e a Apple escrevem no `CODECS=` das playlists públicas delas. O formato tem três escalas de tempo ao mesmo tempo — 600 no filme, 30000 no vídeo, 48000 no áudio — e usar a errada dá 250 segundos para um vídeo de 5. A amostra tem 4 KB: só o cabeçalho, sem um quadro de vídeo. 90 testes |
+| 🧮 | [Recomendações](https://github.com/condeDeveloper/recomendacoes) | Python puro · unittest | o "porque você assistiu X": filtragem colaborativa item-item, semelhança por conteúdo e a mistura das duas. O viés de popularidade não é descrito, é **medido**: sobre os mesmos dados, a co-ocorrência crua aponta para o campeão de audiência em metade do catálogo e o cosseno, uma vez. A frase só nomeia a semente quando ela responde por pelo menos metade da nota — apontar um título que contribuiu 20% é escolher um culpado ao acaso. As medidas são conferidas contra o `statistics.correlation` da biblioteca padrão em cem pares sorteados. 103 testes |
+| 📡 | [Eventos de Reprodução](https://github.com/condeDeveloper/eventos-de-reproducao) | Java 21 · JUnit 5 | a telemetria que alimenta os dois anteriores, a partir de eventos que chegam **repetidos e fora de ordem** — o caso comum, não o excepcional. O teste central não verifica um número: cem embaralhamentos de uma semana de eventos, com um em cada cinco duplicado, têm de chegar ao mesmo estado da entrega perfeita. Foi ele que achou o bug — guardar "concluído" como estado pegajoso dava duas respostas para a mesma entrada, e a pegajosa escondia para sempre da fileira quem estava reassistindo. 46 testes |
 
 <br>
 
