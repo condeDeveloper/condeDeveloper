@@ -54,6 +54,7 @@ Todos jogáveis no navegador, com versão para celular e recordes salvos localme
 
 | | Jogo | Destaques |
 |---|------|-----------|
+| 🥚 | [Bichinho](https://condedeveloper.github.io/bichinho/) | um bichinho virtual **sem um único arquivo de imagem ou de som**: tudo é desenhado com `bezierCurveTo` e sintetizado num oscilador, e a personalidade inteira — nome, forma, cor, mania — sai de uma semente. O que faz dele um bichinho e não uma tela é o **tempo passar com a aba fechada**: fica guardado o instante do último minuto, e ao abrir a página o jogo roda os minutos que faltaram, respeitando o dia e a noite de cada um. Dois relógios de propósito — o desenho anda por quadro e a vida anda pelo relógio do sistema, porque o navegador congela aba escondida. O balanço saiu de **medir**: a primeira versão matava o bichinho em 57 minutos e era inganhável mesmo cuidando a cada dez |
 | 🧱 | [Tetris](https://condedeveloper.github.io/tetris/) | 7-bag, hold, ghost piece, wall kicks, temas e ranking |
 | 🧨 | [Breakout](https://condedeveloper.github.io/breakout/) | 5 níveis, tijolos reforçados, power-ups, partículas |
 | 🏓 | [Pong](https://condedeveloper.github.io/pong/) | IA com 3 dificuldades e modo 2 jogadores |
