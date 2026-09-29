@@ -12,6 +12,7 @@
 <a href="https://condedeveloper.github.io/python/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.python&label=Python&labelColor=541525&color=541525&style=for-the-badge&logo=python&logoColor=F0F6FC" alt="Python"></a>
 <a href="https://condedeveloper.github.io/node/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.node&label=Node&labelColor=3B0F1C&color=3B0F1C&style=for-the-badge&logo=nodedotjs&logoColor=F0F6FC" alt="Node"></a>
 <a href="https://condedeveloper.github.io/javascript/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.javascript&label=JavaScript%20%C2%B7%20HTML%20%C2%B7%20CSS&labelColor=290A14&color=290A14&style=for-the-badge&logo=javascript&logoColor=F0F6FC" alt="JavaScript · HTML · CSS"></a>
+<br>
 
 </div>
 
