@@ -4,6 +4,8 @@
 
 **Desenvolvedor C# e .NET · back-end, sistemas e coisas feitas do zero**
 
+<br>
+
 <!-- Caixas por linguagem: sempre em degradê do mais claro ao mais escuro, na ordem em que aparecem (A52A45 → 781B32 → 541525 → 3B0F1C → 290A14). Ao reordenar ou incluir uma linguagem, redistribuir as cores. -->
 <a href="https://condedeveloper.github.io/csharp/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.csharp&label=C%23&labelColor=A52A45&color=A52A45&style=for-the-badge&logo=dotnet&logoColor=F0F6FC" alt="C#"></a>
 <a href="https://condedeveloper.github.io/java/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.java&label=Java&labelColor=781B32&color=781B32&style=for-the-badge&logo=openjdk&logoColor=F0F6FC" alt="Java"></a>
@@ -12,8 +14,6 @@
 <a href="https://condedeveloper.github.io/javascript/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.javascript&label=JavaScript%20%C2%B7%20HTML%20%C2%B7%20CSS&labelColor=290A14&color=290A14&style=for-the-badge&logo=javascript&logoColor=F0F6FC" alt="JavaScript · HTML · CSS"></a>
 
 </div>
-
-<br>
 
 ## Sobre
 
