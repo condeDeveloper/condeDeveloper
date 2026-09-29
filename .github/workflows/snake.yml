@@ -2,12 +2,13 @@ name: Contribution snake
 
 on:
   schedule:
-    # todo dia às 03:00 UTC (00:00 em Brasília)
-    - cron: "0 3 * * *"
+    # a cada 6 horas (00:00, 06:00, 12:00 e 18:00 em Brasília), para o
+    # contador de contribuições do README não ficar muito para trás
+    - cron: "0 3,9,15,21 * * *"
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [".github/workflows/snake.yml"]
+    paths: [".github/workflows/snake.yml", ".github/scripts/**"]
 
 permissions:
   contents: write
@@ -21,6 +22,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - uses: actions/checkout@v4
+
       - name: Gerar animações
         uses: Platane/snk@v3
         with:
@@ -29,6 +32,12 @@ jobs:
           outputs: |
             dist/github-snake.svg?color_snake=#781B32&color_dots=#EBEDF0,#F1CBD3,#D9909F,#B85269,#781B32
             dist/github-snake-dark.svg?color_snake=#F0F6FC&color_dots=#161B22,#321018,#541525,#781B32,#A52A45
+
+      - name: Contar contribuições
+        run: node .github/scripts/contribuicoes.mjs dist/contribuicoes.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USUARIO: ${{ github.repository_owner }}
 
       - name: Publicar na branch output
         uses: crazy-max/ghaction-github-pages@v4
