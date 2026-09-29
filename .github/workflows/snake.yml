@@ -24,6 +24,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # antes da cobrinha: o snk roda em Docker como root e o dist/ que ele
+      # cria fica sem permissão de escrita para os passos seguintes
+      - name: Contar contribuições
+        run: node .github/scripts/contribuicoes.mjs dist/contribuicoes.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USUARIO: ${{ github.repository_owner }}
+
       - name: Gerar animações
         uses: Platane/snk@v3
         with:
@@ -32,12 +40,6 @@ jobs:
           outputs: |
             dist/github-snake.svg?color_snake=#781B32&color_dots=#EBEDF0,#F1CBD3,#D9909F,#B85269,#781B32
             dist/github-snake-dark.svg?color_snake=#F0F6FC&color_dots=#161B22,#321018,#541525,#781B32,#A52A45
-
-      - name: Contar contribuições
-        run: node .github/scripts/contribuicoes.mjs dist/contribuicoes.json
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USUARIO: ${{ github.repository_owner }}
 
       - name: Publicar na branch output
         uses: crazy-max/ghaction-github-pages@v4
