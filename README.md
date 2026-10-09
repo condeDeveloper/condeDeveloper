@@ -93,6 +93,7 @@ Todos jogáveis no navegador, com versão para celular e recordes salvos localme
 
 | | Projeto | Stack | Destaques |
 |---|---------|-------|-----------|
+| ? | [Glob](https://github.com/condeDeveloper/glob) | Java 21 | **Padroes glob** julgados pelo **automato** e por **todos** os 9.841 textos ate oito caracteres sobre tres letras. O retrocesso catastrofico nao e exponencial no texto: e o texto **elevado ao numero de asteriscos**. 4,2 milhoes de passos contra 104. 21 testes |
 | = | [Unificacao](https://github.com/condeDeveloper/unificacao) | Java 21 | **Robinson, 1965**, julgado pela **definicao**: aplicar e comparar. Sem o teste de ocorrencia o algoritmo nao falha, ele devolve uma substituicao **ciclica**. E a mesma resposta tem **49 objetos** como grafo e **562 trilhoes** de nos escrita por extenso. 23 testes |
 | @ | [Cron](https://github.com/condeDeveloper/cron) | Java 21 | **Expressoes cron** julgadas pela **varredura minuto a minuto**, que e a propria definicao. Quando os dois campos de dia estao restritos o cron usa **OU**, e quem usa E dispara 1 vez por ano onde deveria disparar 63. O salto custa **17.558 vezes menos** que a varredura em 29 de fevereiro. 34 testes |
 | # | [Paginacao](https://github.com/condeDeveloper/paginacao) | Java 21 | **Qual pagina jogar fora**, julgado pelo **otimo de Belady** e pela **distancia de pilha**, que acha as faltas da LRU sem simular nada. No laco, a LRU erra **100%** dos acessos e a MRU empata com o otimo. E quem mais sofre a anomalia de Belady nao e a FIFO: e o sorteio puro, 59 contra 4. 37 testes |
