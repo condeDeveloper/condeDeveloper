@@ -93,6 +93,7 @@ Todos jogáveis no navegador, com versão para celular e recordes salvos localme
 
 | | Projeto | Stack | Destaques |
 |---|---------|-------|-----------|
+| > | [Topologica](https://github.com/condeDeveloper/topologica) | Java 21 | **Kahn e profundidade** julgados pela definicao e pela **contagem de extensoes lineares**. Achar uma ordem e linear; contar quantas existem e completo para a classe de contagem. Todas as formas que escolhi a mao deixam a versao errada passar: so o sorteio a pegou. 26 testes |
 | ? | [Glob](https://github.com/condeDeveloper/glob) | Java 21 | **Padroes glob** julgados pelo **automato** e por **todos** os 9.841 textos ate oito caracteres sobre tres letras. O retrocesso catastrofico nao e exponencial no texto: e o texto **elevado ao numero de asteriscos**. 4,2 milhoes de passos contra 104. 21 testes |
 | = | [Unificacao](https://github.com/condeDeveloper/unificacao) | Java 21 | **Robinson, 1965**, julgado pela **definicao**: aplicar e comparar. Sem o teste de ocorrencia o algoritmo nao falha, ele devolve uma substituicao **ciclica**. E a mesma resposta tem **49 objetos** como grafo e **562 trilhoes** de nos escrita por extenso. 23 testes |
 | @ | [Cron](https://github.com/condeDeveloper/cron) | Java 21 | **Expressoes cron** julgadas pela **varredura minuto a minuto**, que e a propria definicao. Quando os dois campos de dia estao restritos o cron usa **OU**, e quem usa E dispara 1 vez por ano onde deveria disparar 63. O salto custa **17.558 vezes menos** que a varredura em 29 de fevereiro. 34 testes |
