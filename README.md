@@ -93,6 +93,7 @@ Todos jogáveis no navegador, com versão para celular e recordes salvos localme
 
 | | Projeto | Stack | Destaques |
 |---|---------|-------|-----------|
+| p | [Particionamento](https://github.com/condeDeveloper/particionamento) | Java 21 | O resto da divisao move **99% das chaves** quando entra um no, e o minimo e 1%. O anel com um no virtual da ao no mais cheio **161 vezes** o do mais vazio. O algoritmo mais elegante dos quatro e o unico que nao sabe tirar um no do meio. 27 testes |
 | s | [Serializacao](https://github.com/condeDeveloper/serializacao) | Java 21 | **Menos um custa dez bytes** no varinteiro, que e mais do que os oito do tamanho fixo. Um byte de tipo por campo **compra a evolucao de esquema inteira**: sem ele, remover um campo quebra e trocar o tipo corrompe em silencio. 39 testes |
 | l | [LSM](https://github.com/condeDeveloper/lsm) | Java 21 | As mesmas chaves, os mesmos bytes: so a **ordem** muda e a amplificacao de escrita vai de **2,5 para 47**. O espelho pegou dois erros que ressuscitavam chaves apagadas. Com 1.000 chaves vivas, 1.202 lapides. 34 testes |
 | r | [Relogio](https://github.com/condeDeveloper/relogio) | Java 21 | Com 32 processos, o relogio de Lamport acerta **15% dos pares** e o vetorial acerta 100% por 256 bytes em cada mensagem. Com um segundo de desvio, o relogio de parede diz que a **resposta chegou antes da pergunta** em 8% dos pares. 33 testes |
