@@ -93,6 +93,7 @@ Todos jogáveis no navegador, com versão para celular e recordes salvos localme
 
 | | Projeto | Stack | Destaques |
 |---|---------|-------|-----------|
+| q | [Quantis](https://github.com/condeDeveloper/quantis) | Java 21 | Um resumo que guarda **69 de 200.000** valores e promete 1% de erro, e cumpre nas seis formas de fluxo. A **media de dois percentis 99 e o percentil 77**. E o pior resumo de todos e o unico que se junta exatamente. 51 testes |
 | j | [Janela](https://github.com/condeDeveloper/janela) | Java 21 | O **O(1) amortizado** da fila monotonica esconde um passo que custa a janela inteira: 2 operacoes em media, **513 no pior passo**. A soma incremental erra **6,5%** do valor da janela, e o erro **acumula**. 45 testes |
 | c | [Cardinalidade](https://github.com/condeDeveloper/cardinalidade) | Java 21 | Contar distintos em **1.024 bytes**, com 2% de erro, para mil ou um milhao. Sem a correcao de baixa contagem, um resumo que viu **1 valor responde 738**. A conferencia que mede a aposta do algoritmo **aprova** o espalhamento que o destroi. 47 testes |
 | a | [Amostragem](https://github.com/condeDeveloper/amostragem) | Java 21 | Cinco amostradores julgados pela **enumeracao exata** de todos os caminhos, sem simulacao. Um deles tem a chance de cada elemento **exatamente certa** e 12 pares impossiveis de 28. O teste da media nao so deixa ele passar: coloca ele em **primeiro lugar**. 42 testes |
