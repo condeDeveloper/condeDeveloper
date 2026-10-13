@@ -93,6 +93,7 @@ Todos jogáveis no navegador, com versão para celular e recordes salvos localme
 
 | | Projeto | Stack | Destaques |
 |---|---------|-------|-----------|
+| r | [Relogio](https://github.com/condeDeveloper/relogio) | Java 21 | Com 32 processos, o relogio de Lamport acerta **15% dos pares** e o vetorial acerta 100% por 256 bytes em cada mensagem. Com um segundo de desvio, o relogio de parede diz que a **resposta chegou antes da pergunta** em 8% dos pares. 33 testes |
 | v | [Vazao](https://github.com/condeDeveloper/vazao) | Java 21 | Dos quatro limitadores de taxa, **um cumpre a promessa** e e o que guarda N instantes. A janela fixa deixa passar o **dobro** na fronteira. O balde de fichas quebra com **zero tempo parado**. 38 testes |
 | q | [Quantis](https://github.com/condeDeveloper/quantis) | Java 21 | Um resumo que guarda **69 de 200.000** valores e promete 1% de erro, e cumpre nas seis formas de fluxo. A **media de dois percentis 99 e o percentil 77**. E o pior resumo de todos e o unico que se junta exatamente. 51 testes |
 | j | [Janela](https://github.com/condeDeveloper/janela) | Java 21 | O **O(1) amortizado** da fila monotonica esconde um passo que custa a janela inteira: 2 operacoes em media, **513 no pior passo**. A soma incremental erra **6,5%** do valor da janela, e o erro **acumula**. 45 testes |
