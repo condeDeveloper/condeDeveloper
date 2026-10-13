@@ -93,6 +93,7 @@ Todos jogáveis no navegador, com versão para celular e recordes salvos localme
 
 | | Projeto | Stack | Destaques |
 |---|---------|-------|-----------|
+| a | [Amostragem](https://github.com/condeDeveloper/amostragem) | Java 21 | Cinco amostradores julgados pela **enumeracao exata** de todos os caminhos, sem simulacao. Um deles tem a chance de cada elemento **exatamente certa** e 12 pares impossiveis de 28. O teste da media nao so deixa ele passar: coloca ele em **primeiro lugar**. 42 testes |
 | c | [Centralidade](https://github.com/condeDeveloper/centralidade) | Java 21 | Quatro medidas de centralidade contra quatro juizes. Elas **discordam sobre quem e o centro em 5 dos 11 grafos**. A ponte do haltere e a **ultima em grau e a primeira em intermediacao**. O juiz estava errado, e nenhuma forma desenhada a mao podia ter pego. 71 testes |
 | d | [Deduplicacao](https://github.com/condeDeveloper/deduplicacao) | Java 21 | **Onde cortar**, julgado pela remontagem byte a byte. Um byte no comeco aproveita **1 de 1025** fatias fixas e **882 de 883** por conteudo. Sem limites de tamanho, o valor do byte sozinho decide entre 102.400 fatias de um byte e uma fatia so. 24 testes |
 | = | [Balanceador](https://github.com/condeDeveloper/balanceador) | Java 21 | **Media nao e medida**: o que derruba servidor e a carga maxima. Julgado pela **forca bruta** sobre todas as distribuicoes e pelo teorema das **duas escolhas** de 1994. Toda a vantagem esta no primeiro passo: a segunda consulta vale ouro e a terceira quase nada. 15 testes |
