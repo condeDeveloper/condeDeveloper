@@ -93,6 +93,7 @@ Todos jogáveis no navegador, com versão para celular e recordes salvos localme
 
 | | Projeto | Stack | Destaques |
 |---|---------|-------|-----------|
+| c | [Conjuntos](https://github.com/condeDeveloper/conjuntos) | Java 21 | Sem truque, uma busca custa **50.000 saltos**; com qualquer um dos dois, custa 2. O segundo truque compra 40%, e nao uma ordem de grandeza. E a corrente classica, que eu escrevi como o caso adversario, e a que mais ajuda. 27 testes |
 | t | [Trie](https://github.com/condeDeveloper/trie) | Java 21 | A trie de vetor usa **uma casa em vinte e seis**. Numa consulta por prefixo, o vetor ordenado olha **136.972 letras** e a trie olha 12,8. E a compactacao economiza onde eu escrevi que nao economizaria. 27 testes |
 | p | [Particionamento](https://github.com/condeDeveloper/particionamento) | Java 21 | O resto da divisao move **99% das chaves** quando entra um no, e o minimo e 1%. O anel com um no virtual da ao no mais cheio **161 vezes** o do mais vazio. O algoritmo mais elegante dos quatro e o unico que nao sabe tirar um no do meio. 27 testes |
 | s | [Serializacao](https://github.com/condeDeveloper/serializacao) | Java 21 | **Menos um custa dez bytes** no varinteiro, que e mais do que os oito do tamanho fixo. Um byte de tipo por campo **compra a evolucao de esquema inteira**: sem ele, remover um campo quebra e trocar o tipo corrompe em silencio. 39 testes |
