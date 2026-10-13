@@ -93,6 +93,7 @@ Todos jogáveis no navegador, com versão para celular e recordes salvos localme
 
 | | Projeto | Stack | Destaques |
 |---|---------|-------|-----------|
+| c | [Centralidade](https://github.com/condeDeveloper/centralidade) | Java 21 | Quatro medidas de centralidade contra quatro juizes. Elas **discordam sobre quem e o centro em 5 dos 11 grafos**. A ponte do haltere e a **ultima em grau e a primeira em intermediacao**. O juiz estava errado, e nenhuma forma desenhada a mao podia ter pego. 71 testes |
 | d | [Deduplicacao](https://github.com/condeDeveloper/deduplicacao) | Java 21 | **Onde cortar**, julgado pela remontagem byte a byte. Um byte no comeco aproveita **1 de 1025** fatias fixas e **882 de 883** por conteudo. Sem limites de tamanho, o valor do byte sozinho decide entre 102.400 fatias de um byte e uma fatia so. 24 testes |
 | = | [Balanceador](https://github.com/condeDeveloper/balanceador) | Java 21 | **Media nao e medida**: o que derruba servidor e a carga maxima. Julgado pela **forca bruta** sobre todas as distribuicoes e pelo teorema das **duas escolhas** de 1994. Toda a vantagem esta no primeiro passo: a segunda consulta vale ouro e a terceira quase nada. 15 testes |
 | r | [Retentativa](https://github.com/condeDeveloper/retentativa) | Java 21 | **Espera exponencial e sorteio** julgados pela **conta fechada** da geometrica, com relogio simulado. No **primeiro** retry o sorteio quase nao espalha: 991 de mil clientes caem na mesma janela. E sem teto a espera acumulada passa de **tres anos** na trigesima tentativa. 15 testes |
