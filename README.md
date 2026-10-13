@@ -93,6 +93,7 @@ Todos jogáveis no navegador, com versão para celular e recordes salvos localme
 
 | | Projeto | Stack | Destaques |
 |---|---------|-------|-----------|
+| c | [Cardinalidade](https://github.com/condeDeveloper/cardinalidade) | Java 21 | Contar distintos em **1.024 bytes**, com 2% de erro, para mil ou um milhao. Sem a correcao de baixa contagem, um resumo que viu **1 valor responde 738**. A conferencia que mede a aposta do algoritmo **aprova** o espalhamento que o destroi. 47 testes |
 | a | [Amostragem](https://github.com/condeDeveloper/amostragem) | Java 21 | Cinco amostradores julgados pela **enumeracao exata** de todos os caminhos, sem simulacao. Um deles tem a chance de cada elemento **exatamente certa** e 12 pares impossiveis de 28. O teste da media nao so deixa ele passar: coloca ele em **primeiro lugar**. 42 testes |
 | c | [Centralidade](https://github.com/condeDeveloper/centralidade) | Java 21 | Quatro medidas de centralidade contra quatro juizes. Elas **discordam sobre quem e o centro em 5 dos 11 grafos**. A ponte do haltere e a **ultima em grau e a primeira em intermediacao**. O juiz estava errado, e nenhuma forma desenhada a mao podia ter pego. 71 testes |
 | d | [Deduplicacao](https://github.com/condeDeveloper/deduplicacao) | Java 21 | **Onde cortar**, julgado pela remontagem byte a byte. Um byte no comeco aproveita **1 de 1025** fatias fixas e **882 de 883** por conteudo. Sem limites de tamanho, o valor do byte sozinho decide entre 102.400 fatias de um byte e uma fatia so. 24 testes |
