@@ -364,11 +364,11 @@ Todos jogáveis no navegador, com versão para celular e recordes salvos localme
 
 | | Projeto | Destaques |
 |---|---------|-----------|
-| 📊 | [Analisador de Logs](https://github.com/condeDeveloper/analisador-de-logs) | leitores de Apache, nginx, JSON por linha, syslog e log de aplicação, com detecção automática e suporte a arquivo de formatos misturados, mais uma linguagem de filtro |
-| 🗃️ | [Mini ORM](https://github.com/condeDeveloper/mini-orm) | ORM sobre `sqlite3` com zero dependências: campos como descritores que interceptam a escrita, então o `UPDATE` toca só a coluna que mudou, metaclasse que recolhe os campos e mapa de identidade |
-| 🧮 | [Planilha](https://github.com/condeDeveloper/planilha) | lexer e parser de fórmulas com a precedência do Excel, onde o sinal unário une mais forte que a potência e `-2^2` é 4. Referências `A1` com cifrão, intervalos e mais de cinquenta funções |
-| 🔀 | [Diferença](https://github.com/condeDeveloper/diferenca) | diff unificado pelo algoritmo de Myers, com a saída idêntica byte a byte à do `git diff` em mil pares de arquivos sorteados. O `git apply` ainda aplica os patches |
-| 🕰️ | [Fuso Horário](https://github.com/condeDeveloper/fuso-horario) | leitor da base de fusos da IANA: o formato binário TZif da RFC 8536, a cadeia POSIX TZ e as horas locais que não existem. Conferido contra o `zoneinfo` lendo os mesmos arquivos em 40 mil instantes |
+| 📊 | [Analisador de Logs](https://github.com/condeDeveloper/analisador-de-logs) | leitores de Apache, nginx, JSON por linha, syslog e log de aplicação, com detecção automática e suporte a arquivo de formatos misturados, mais uma linguagem de filtro. 129 testes |
+| 🗃️ | [Mini ORM](https://github.com/condeDeveloper/mini-orm) | ORM sobre `sqlite3` com zero dependências: campos como descritores que interceptam a escrita, então o `UPDATE` toca só a coluna que mudou, metaclasse que recolhe os campos e mapa de identidade. 107 testes |
+| 🧮 | [Planilha](https://github.com/condeDeveloper/planilha) | lexer e parser de fórmulas com a precedência do Excel, onde o sinal unário une mais forte que a potência e `-2^2` é 4. Referências `A1` com cifrão, intervalos e mais de cinquenta funções. 294 testes |
+| 🔀 | [Diferença](https://github.com/condeDeveloper/diferenca) | diff unificado pelo algoritmo de Myers, com a saída idêntica byte a byte à do `git diff` em mil pares de arquivos sorteados. O `git apply` ainda aplica os patches. 124 testes |
+| 🕰️ | [Fuso Horário](https://github.com/condeDeveloper/fuso-horario) | leitor da base de fusos da IANA: o formato binário TZif da RFC 8536, a cadeia POSIX TZ e as horas locais que não existem. Conferido contra o `zoneinfo` lendo os mesmos arquivos em 40 mil instantes. 38 testes |
 | 🔤 | [Normalização Unicode](https://github.com/condeDeveloper/normalizacao-unicode) | as quatro formas NFC, NFD, NFKC e NFKD sem `unicodedata`, conferidas contra o arquivo de conformidade oficial: 19.965 casos com doze invariantes cada |
 | 🤪 | [Bobo, o chatbot idiota](https://github.com/condeDeveloper/chatbot-bobo) | chatbot de terminal em Python puro: habilidades por prioridade, memória de conversa, contas seguras com `ast`, hora e data, piadas e reflexões estilo ELIZA em português. 52 testes |
 
