@@ -383,25 +383,25 @@ Tudo aqui é Node puro: nenhuma dependência, nenhuma etapa de build, e os teste
 | | Projeto | Destaques |
 |---|---------|-----------|
 | 🔀 | [Merge](https://github.com/condeDeveloper/merge) | fusão de três vias, o algoritmo que faz duas pessoas conseguirem mexer no mesmo arquivo. Conferido contra o próprio `git merge-file` em 2.500 triplas sorteadas, com 97,56% de saída idêntica byte a byte |
-| 🌳 | [Mini Git](https://github.com/condeDeveloper/mini-git) | blob, tree e commit, SHA-1, zlib, índice, referências e histórico, com hashes idênticos aos do git de verdade |
-| 🔌 | [WebSocket](https://github.com/condeDeveloper/websocket) | servidor WebSocket sobre `node:net` pela RFC 6455, com cliente junto: aperto de mão no evento `upgrade`, quadros mascarados, fragmentação, ping e pong |
+| 🌳 | [Mini Git](https://github.com/condeDeveloper/mini-git) | blob, tree e commit, SHA-1, zlib, índice, referências e histórico, com hashes idênticos aos do git de verdade. 116 testes |
+| 🔌 | [WebSocket](https://github.com/condeDeveloper/websocket) | servidor WebSocket sobre `node:net` pela RFC 6455, com cliente junto: aperto de mão no evento `upgrade`, quadros mascarados, fragmentação, ping e pong. 71 testes |
 
 <details>
 <summary><b>ver mais 11 projetos em Node</b></summary>
 
 | | Projeto | Destaques |
 |---|---------|-----------|
-| 📦 | [Empacotador](https://github.com/condeDeveloper/empacotador) | empacotador de módulos ES. Em vez de procurar `import` com expressão regular, que casa dentro de comentário e de texto, ele analisa o arquivo de verdade |
-| 🌐 | [Servidor HTTP](https://github.com/condeDeveloper/servidor-http) | mini framework sobre `node:http`, sem Express: roteador que ordena por especificidade, então `/pedidos/novo` ganha de `/pedidos/:id` |
-| ✅ | [Executor de Testes](https://github.com/condeDeveloper/executor-de-testes) | a declaração monta uma árvore sem executar nada, o que permite contar e filtrar antes de rodar |
-| 🗃️ | [Arquivador](https://github.com/condeDeveloper/arquivador) | leitor e escritor de tar POSIX ustar. A prova é o `tar` do sistema lendo o que ele grava, e ele lendo o que o `tar` grava |
-| 🔑 | [Assinador JWT](https://github.com/condeDeveloper/assinador-jwt) | JWT e JWS sobre `node:crypto`, com os vetores do apêndice A.1 da RFC 7515 reproduzidos byte a byte. O algoritmo `none` nunca é aceito |
-| 🧭 | [Resolvedor DNS](https://github.com/condeDeveloper/resolvedor-dns) | DNS sobre `node:dgram` pela RFC 1035, com a compressão por ponteiro de 1987, em que um rótulo aponta para outro lugar da mensagem |
-| 🔬 | [Analisador JSON](https://github.com/condeDeveloper/analisador-json) | JSON pela RFC 8259, por três coisas que o `JSON.parse` não faz, a começar pelo erro que diz linha, coluna e o trecho com um cursor embaixo |
-| 🔤 | [Codificação](https://github.com/condeDeveloper/codificacao) | UTF-8, UTF-16 e Latin-1 do zero. A parte interessante não é traduzir bytes, é recusar os que parecem válidos, como o `C0 AF` |
+| 📦 | [Empacotador](https://github.com/condeDeveloper/empacotador) | empacotador de módulos ES. Em vez de procurar `import` com expressão regular, que casa dentro de comentário e de texto, ele analisa o arquivo de verdade. 64 testes |
+| 🌐 | [Servidor HTTP](https://github.com/condeDeveloper/servidor-http) | mini framework sobre `node:http`, sem Express: roteador que ordena por especificidade, então `/pedidos/novo` ganha de `/pedidos/:id`. 86 testes |
+| ✅ | [Executor de Testes](https://github.com/condeDeveloper/executor-de-testes) | a declaração monta uma árvore sem executar nada, o que permite contar e filtrar antes de rodar. 75 testes |
+| 🗃️ | [Arquivador](https://github.com/condeDeveloper/arquivador) | leitor e escritor de tar POSIX ustar. A prova é o `tar` do sistema lendo o que ele grava, e ele lendo o que o `tar` grava. 56 testes |
+| 🔑 | [Assinador JWT](https://github.com/condeDeveloper/assinador-jwt) | JWT e JWS sobre `node:crypto`, com os vetores do apêndice A.1 da RFC 7515 reproduzidos byte a byte. O algoritmo `none` nunca é aceito. 57 testes |
+| 🧭 | [Resolvedor DNS](https://github.com/condeDeveloper/resolvedor-dns) | DNS sobre `node:dgram` pela RFC 1035, com a compressão por ponteiro de 1987, em que um rótulo aponta para outro lugar da mensagem. 64 testes |
+| 🔬 | [Analisador JSON](https://github.com/condeDeveloper/analisador-json) | JSON pela RFC 8259, por três coisas que o `JSON.parse` não faz, a começar pelo erro que diz linha, coluna e o trecho com um cursor embaixo. 115 testes |
+| 🔤 | [Codificação](https://github.com/condeDeveloper/codificacao) | UTF-8, UTF-16 e Latin-1 do zero. A parte interessante não é traduzir bytes, é recusar os que parecem válidos, como o `C0 AF`. 56 testes |
 | 📝 | [Markdown](https://github.com/condeDeveloper/markdown) | CommonMark do zero, com os 652 exemplos da especificação oficial passando byte a byte |
 | 🔗 | [Punycode](https://github.com/condeDeveloper/punycode) | Punycode (RFC 3492) e IDNA (UTS #46) do zero, para fechar a lacuna que o [`url`](https://github.com/condeDeveloper/url) deixa nos domínios com acento |
-| 📓 | [Diário](https://github.com/condeDeveloper/diario) | log append-only com CRC-32, compactação e um chave-valor durável em cima. É o desenho do WAL do Postgres e do commit log do Kafka |
+| 📓 | [Diário](https://github.com/condeDeveloper/diario) | log append-only com CRC-32, compactação e um chave-valor durável em cima. É o desenho do WAL do Postgres e do commit log do Kafka. 51 testes |
 
 </details>
 
