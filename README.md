@@ -398,10 +398,11 @@ Tudo aqui é Node puro: nenhuma dependência, nenhuma etapa de build, e os teste
 | 🔌 | [WebSocket](https://github.com/condeDeveloper/websocket) | servidor WebSocket sobre `node:net` pela RFC 6455, com cliente junto: aperto de mão no evento `upgrade`, quadros mascarados, fragmentação, ping e pong. 71 testes |
 
 <details>
-<summary><b>ver mais 11 projetos em Node</b></summary>
+<summary><b>ver mais 22 projetos em Node</b></summary>
 
 | | Projeto | Destaques |
 |---|---------|-----------|
+| 🔀 | [Circuitos Eulerianos](https://github.com/condeDeveloper/euleriano) | de quantos jeitos dá para percorrer todas as arestas de um grafo dirigido e voltar ao começo, contado por dois caminhos que não trocam uma linha de código: **andando em todos os circuitos**, um por um, e **calculando um determinante** pelo teorema BEST. Os dois **concordam nos 7.818 grafos varridos**, que são todos os dirigidos simples eulerianos e conexos de 2 a 5 vértices. O **número de arborescências não muda com a raiz escolhida** em nenhum deles, e fora do euleriano muda. O **completo de 6 vértices tem 247.669.456.896 circuitos**: o determinante responde em milissegundos e a enumeração desiste depois de 20 milhões de nós. Contar todos custa **152 vezes achar um**, mas só a partir de 4 vértices. 103 testes |
 | 📦 | [Empacotador](https://github.com/condeDeveloper/empacotador) | empacotador de módulos ES. Em vez de procurar `import` com expressão regular, que casa dentro de comentário e de texto, ele analisa o arquivo de verdade. 64 testes |
 | 🌐 | [Servidor HTTP](https://github.com/condeDeveloper/servidor-http) | mini framework sobre `node:http`, sem Express: roteador que ordena por especificidade, então `/pedidos/novo` ganha de `/pedidos/:id`. 86 testes |
 | ✅ | [Executor de Testes](https://github.com/condeDeveloper/executor-de-testes) | a declaração monta uma árvore sem executar nada, o que permite contar e filtrar antes de rodar. 75 testes |
