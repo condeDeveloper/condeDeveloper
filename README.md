@@ -371,10 +371,11 @@ Todos jogáveis no navegador, com versão para celular e recordes salvos localme
 | 🖼️ | [PNG](https://github.com/condeDeveloper/png) | decodificador e codificador de PNG sem Pillow, conferido contra a PngSuite, a suíte oficial mantida desde 1996. As 162 imagens válidas decodificam e as 14 corrompidas são recusadas pela razão exata de cada uma |
 
 <details>
-<summary><b>ver mais 7 projetos em Python</b></summary>
+<summary><b>ver mais 18 projetos em Python</b></summary>
 
 | | Projeto | Destaques |
 |---|---------|-----------|
+| 🔁 | [Rotina de Kaprekar](https://github.com/condeDeveloper/kaprekar) | ordene os algarismos nos dois sentidos, subtraia, repita: em no máximo sete passos todo número de quatro algarismos chega a **6174**. A varredura vai de dois a seis algarismos e em onze bases, por **dois caminhos que não trocam uma linha de código** — o grafo das classes e a força bruta número a número —, que **concordam nos 1.111.100 números conferidos**. A rotina **só enxerga o multiconjunto de algarismos**, e isso derruba o milhão de números de seis algarismos para **5.005 classes**. Medir pela classe engana em **3.719 dos 10.000**, porque a classe entra no ciclo um passo antes do número. Em seis algarismos o 6174 não tem herdeiro: **93,55% caem num ciclo de sete**. 62 testes |
 | 📊 | [Analisador de Logs](https://github.com/condeDeveloper/analisador-de-logs) | leitores de Apache, nginx, JSON por linha, syslog e log de aplicação, com detecção automática e suporte a arquivo de formatos misturados, mais uma linguagem de filtro. 129 testes |
 | 🗃️ | [Mini ORM](https://github.com/condeDeveloper/mini-orm) | ORM sobre `sqlite3` com zero dependências: campos como descritores que interceptam a escrita, então o `UPDATE` toca só a coluna que mudou, metaclasse que recolhe os campos e mapa de identidade. 107 testes |
 | 🧮 | [Planilha](https://github.com/condeDeveloper/planilha) | lexer e parser de fórmulas com a precedência do Excel, onde o sinal unário une mais forte que a potência e `-2^2` é 4. Referências `A1` com cifrão, intervalos e mais de cinquenta funções. 294 testes |
