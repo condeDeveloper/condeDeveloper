@@ -323,10 +323,11 @@ Todos jogáveis no navegador, com versão para celular e recordes salvos localme
 | 🔗 | [URL](https://github.com/condeDeveloper/url) | C# 12 · .NET 8 · xUnit | o WHATWG URL Standard, que é o que o navegador faz, e não a RFC 3986. Conferido contra o web-platform-tests, a mesma suíte que Chrome, Firefox e Safari usam: 869 de 896, incluindo os 269 casos que exigem que o parse falhe |
 
 <details>
-<summary><b>ver mais 30 projetos de back-end</b></summary>
+<summary><b>ver mais 41 projetos de back-end</b></summary>
 
 | | Projeto | Stack | Destaques |
 |---|---------|-------|-----------|
+| 🔢 | [Polinômios ciclotômicos](https://github.com/condeDeveloper/ciclotomicos) | Java 21 · JUnit 5 · AssertJ | Os coeficientes parecem ser sempre `-1`, `0` ou `1`. Em **n = 105** aparece um `-2`, e o motivo é estrutural: 105 é o menor número com três primos ímpares distintos. Quatro achados: **923 valores de n e nenhuma exceção** enquanto houver no máximo dois primos ímpares; **três fatores não bastam**, porque 19 dos 77 continuam com altura 1; o segundo recorde está em **385**, não logo depois; e recursão e inversão de Möbius concordaram em **6.000 de 6.000**. 42 testes |
 | 🗜️ | [Compactador](https://github.com/condeDeveloper/compactador) | Java 21 · JUnit 5 · AssertJ | compactador sem `java.util.zip`: E/S em nível de bit e Huffman canônico transmitido só pelos 256 comprimentos de código, com o decodificador remontando a árvore sozinho. 76 testes |
 | 🔤 | [Motor de Regex](https://github.com/condeDeveloper/motor-de-regex) | Java 21 · JUnit 5 · AssertJ | parser por descida recursiva, construção de Thompson montando o autômato de baixo para cima e simulação por conjunto de estados, sem retrocesso. 107 testes |
 | ⚙️ | [Bytecode](https://github.com/condeDeveloper/bytecode) | Java 21 · JUnit 5 · AssertJ | gerador de arquivos `.class` do zero, sem ASM: pool de constantes, atributo `Code` e descritores. A própria JVM carrega e executa a saída do compilador de expressões. 64 testes |
