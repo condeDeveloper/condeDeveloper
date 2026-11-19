@@ -12,6 +12,7 @@
 <a href="https://condedeveloper.github.io/python/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.python&label=Python&labelColor=541525&color=541525&style=for-the-badge&logo=python&logoColor=F0F6FC" alt="Python"></a>
 <a href="https://condedeveloper.github.io/node/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.node&label=Node&labelColor=3B0F1C&color=3B0F1C&style=for-the-badge&logo=nodedotjs&logoColor=F0F6FC" alt="Node"></a>
 <a href="https://condedeveloper.github.io/javascript/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.javascript&label=JavaScript%20%C2%B7%20HTML%20%C2%B7%20CSS&labelColor=290A14&color=290A14&style=for-the-badge&logo=javascript&logoColor=F0F6FC" alt="JavaScript · HTML · CSS"></a>
+<a href="https://condedeveloper.github.io/fsharp/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.fsharp&label=F%23&labelColor=1C0710&color=1C0710&style=for-the-badge&logo=fsharp&logoColor=F0F6FC" alt="F#"></a>
 
 <br><br>
 
@@ -109,6 +110,7 @@ Oito do acervo, um por tipo de problema. O resto está no
 | ![Python](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.python&label=&labelColor=541525&color=541525&style=flat-square) | **[Python](https://condedeveloper.github.io/python/)** | formatos de arquivo, teoria dos números e sequências, tudo só com a biblioteca padrão |
 | ![Node](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.node&label=&labelColor=3B0F1C&color=3B0F1C&style=flat-square) | **[Node](https://condedeveloper.github.io/node/)** | protocolos e formatos em Node puro: **nenhuma dependência, nenhum build**, testes no `node:test` |
 | ![JS](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.javascript&label=&labelColor=290A14&color=290A14&style=flat-square) | **[JavaScript](https://condedeveloper.github.io/javascript/)** | jogos clássicos em HTML5 Canvas, um repositório por jogo, sem framework |
+| ![F#](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcondedeveloper.github.io%2Fcontagem.json&query=%24.fsharp&label=&labelColor=1C0710&color=1C0710&style=flat-square) | **[F#](https://condedeveloper.github.io/fsharp/)** | jogos resolvidos por busca exata: Lig 4, Othello, Kalah, Dodgem, Domineering e Grundy, cada um com juiz independente |
 
 <br>
 
